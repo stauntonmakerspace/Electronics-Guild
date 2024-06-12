@@ -11,3 +11,9 @@ A CircuitPython program that blinks the on-board LED.
 
 ### [hello.py](ExamplePrograms/CircuitPython/hello.py)
 A CircuitPython program that prints a hello message to the serial console.
+
+### [wifi_basic.py](ExamplePrograms/CircuitPython/wifi_basic.py)
+A CircuitPython program that connects a WiFi capable board to the WiFi network and pings Google.
+
+### [wifi_quotes.py](ExamplePrograms/CircuitPython/wifi_quotes.py)
+A CircuitPython program that connects a WiFi capable board to the WiFi network and retrieves quotes from Adafruit.
