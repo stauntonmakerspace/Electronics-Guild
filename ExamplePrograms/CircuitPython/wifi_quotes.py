@@ -1,10 +1,9 @@
 # wifi_quotes.py
-# Connects the board to the WiFi network and retrieves quotes from Adafruit.
+# A CircuitPython program that connects the board to the WiFi network and
+# retrieves quotes from Adafruit.
 # Save CIRCUITPY_WIFI_SSID and CIRCUITPY_WIFI_PASSWORD in settings.toml file.
 # Source:  https://learn.adafruit.com/pico-w-wifi-with-circuitpython/pico-w-requests-test-adafruit-quotes
-
 # SPDX-FileCopyrightText: 2022 Liz Clark for Adafruit Industries
-#
 # SPDX-License-Identifier: MIT
 
 import os

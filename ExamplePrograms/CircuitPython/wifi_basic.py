@@ -1,10 +1,9 @@
 # wifi_basic.py
-# Connects the board to the WiFi network and pings Google.
+# A CircuitPython program that connects the board to the WiFi network and pings
+# Google.
 # Save CIRCUITPY_WIFI_SSID and CIRCUITPY_WIFI_PASSWORD in settings.toml file.
 # Source:  https://learn.adafruit.com/pico-w-wifi-with-circuitpython/pico-w-basic-wifi-test
-
 # SPDX-FileCopyrightText: 2022 Liz Clark for Adafruit Industries
-#
 # SPDX-License-Identifier: MIT
 
 import os
@@ -31,4 +30,3 @@ print("My IP address is", wifi.radio.ipv4_address)
 #  pings Google
 ipv4 = ipaddress.ip_address("8.8.4.4")
 print("Ping google.com: %f ms" % (wifi.radio.ping(ipv4)*1000))
-
